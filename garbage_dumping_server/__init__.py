@@ -1,0 +1,1 @@
+"""Garbage Dumping Server package."""

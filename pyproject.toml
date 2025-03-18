@@ -1,0 +1,18 @@
+[project]
+name = "garbage_dumping_server"
+version = "0.1.0"
+description = "A simple server with a single endpoint"
+authors = [
+    {name = "User"}
+]
+readme = "README.md"
+requires-python = "^3.9"
+dependencies = [
+]
+
+[project.scripts]
+server = "garbage_dumping_server.server:run_server"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
